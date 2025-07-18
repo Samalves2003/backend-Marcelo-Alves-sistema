@@ -1,14 +1,14 @@
 {
-  "name": "marcelo-alves-imoveis-backend",
+  "name": "marcelo-alves-imoveis-api",
   "version": "1.0.0",
-  "description": "Backend para o sistema imobiliário Marcelo Alves Imóveis",
-  "main": "server.js",
+  "description": "API para o sistema imobiliário Marcelo Alves",
+  "main": "api/index.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node api/index.js",
+    "dev": "node api/index.js"
   },
-  "keywords": ["imoveis", "real-estate", "nodejs", "api"],
-  "author": "Marcelo Alves",
-  "license": "ISC"
+  "dependencies": {},
+  "engines": {
+    "node": "22.x"
+  }
 }
