@@ -3,27 +3,7 @@
 
 // Dados em memória (simulando banco de dados)
 let imoveis = [
-    {id: 1,
-        titulo: "Casa 3 quartos no Jardim Atlântico",
-        tipo: "casa",
-        finalidade: "venda",
-        preco: 450000,
-        descricao: "Linda casa com 3 quartos, 2 banheiros, sala ampla, cozinha planejada e quintal. Localizada em bairro residencial tranquilo.",
-        quartos: 3,
-        banheiros: 2,
-        area: 120,
-        endereco: "Jardim Atlântico, São Paulo/SP",
-        bairro: "Jardim Atlântico",
-        fotos: [
-            "https://images.unsplash.com/photo-1568605114967-8130f3a36994?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-            "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-        ],
-        status: "disponivel",
-        habilitado: true,
-        dataPublicacao: "2024-01-15T10:00:00Z",
-        dataCriacao: new Date().toISOString(),
-        dataAtualizacao: new Date().toISOString()
-    }
+   
 ];
 
 let contatos = [];
