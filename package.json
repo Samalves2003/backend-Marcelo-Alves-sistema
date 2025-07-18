@@ -1,14 +1,16 @@
 {
   "name": "marcelo-alves-imoveis-backend",
   "version": "1.0.0",
-  "description": "Backend para o sistema imobiliário Marcelo Alves Imóveis",
+  "description": "Backend para o sistema imobiliário",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "dev": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node server.js"
   },
-  "keywords": ["imoveis", "real-estate", "nodejs", "api"],
-  "author": "Marcelo Alves",
-  "license": "ISC"
+  "dependencies": {
+    "firebase-admin": "^11.0.0"
+  },
+  "engines": {
+    "node": "18.x"
+  }
 }
